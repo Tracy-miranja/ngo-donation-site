@@ -13,11 +13,11 @@ const Navbar = () => {
         {/* desktop menu section */}
         <div>
           <ul>
-            <li>
-              <a href="#" className="flex flex-row items-center gap-2">
+            <li className="group relative">
+              <a href="#" className="flex flex-row items-center gap-2 h-[72px]">
                 Home{" "}
                 <span>
-                  <FaCaretDown />
+                  <FaCaretDown className="group-hover:rotate-180" />
                 </span>
               </a>
             </li>
